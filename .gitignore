@@ -1,0 +1,7 @@
+output/
+usb/
+models/llm/
+models/embeddings/
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,14 @@
+## Projects
+
+- Built a real-time inventory tracking system using Python and PostgreSQL for a campus makerspace, reducing manual stock-check time from 3 hours/week to about 20 minutes/week.
+- Developed a Chrome extension with vanilla JavaScript that scrapes and summarizes lecture slides, used by over 400 students across two semesters.
+- Implemented a REST API in FastAPI backing a peer-tutoring scheduling app, handling authentication, booking conflicts, and email notifications.
+
+## Experience
+
+- Teaching Assistant for Intro to Data Structures: led weekly discussion sections of 25 students and held office hours, improving average midterm scores for attendees by roughly 8 points compared to non-attendees.
+- Software Engineering Intern at a regional logistics startup: wrote unit and integration tests for a route-optimization microservice, catching a routing bug that had been silently causing ~5% of deliveries to be misrouted.
+
+## Skills
+
+Python, JavaScript, FastAPI, PostgreSQL, Git, Docker, basic Kubernetes exposure from a class project, unit testing with pytest.

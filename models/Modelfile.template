@@ -1,0 +1,14 @@
+# Copy this to models/llm/qwen2.5-14b/Modelfile and adjust the FROM path
+# to match the exact .gguf filename you staged.
+#
+# Usage:
+#   ollama create talentforge-qwen -f models/llm/qwen2.5-14b/Modelfile
+
+FROM ./qwen2.5-14b-instruct-q5_k_m.gguf
+
+PARAMETER temperature 0.1
+PARAMETER num_ctx 8192
+
+SYSTEM """You are a precise, schema-following assistant used inside an
+automated pipeline. You always respond with valid JSON only when asked to,
+never markdown fences, never explanatory prose outside the JSON object."""

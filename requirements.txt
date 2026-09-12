@@ -1,0 +1,38 @@
+# Pin versions explicitly so `pip download` and the offline `pip install
+# --no-index` at the venue resolve identically. Verify aarch64 wheel
+# availability for each of these before finalizing versions.
+
+# --- Core app ---
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+streamlit==1.40.2
+python-multipart==0.0.19
+
+# --- Document parsing ---
+pypdf==5.1.0
+pymupdf==1.25.1
+python-docx==1.1.2
+
+# --- Embeddings / retrieval ---
+sentence-transformers==3.3.1
+numpy==1.26.4
+scikit-learn==1.5.2
+faiss-cpu==1.9.0
+
+# --- Local LLM client ---
+ollama==0.4.4
+# llama-cpp-python intentionally NOT pinned here — build it separately
+# ahead of time with CUDA flags for aarch64 (see MANIFEST_USB.md).
+
+# --- Templating / LaTeX orchestration ---
+jinja2==3.1.4
+
+# --- Utility ---
+tenacity==9.0.0
+python-dotenv==1.0.1
+loguru==0.7.3
+
+# --- Testing ---
+pytest==8.3.4
+pytest-mock==3.14.0

@@ -1,0 +1,11 @@
+Backend Software Engineer Intern
+
+We are looking for a Backend Software Engineer Intern to join our platform team.
+
+Requirements:
+- Experience building and testing REST APIs, ideally with a Python framework such as FastAPI or Django.
+- Familiarity with relational databases (PostgreSQL, MySQL) and writing efficient queries.
+- Comfortable writing unit and integration tests as part of a normal development workflow.
+- Experience with containerization tools like Docker; Kubernetes experience is a strong plus.
+- Excellent communication skills and experience mentoring or teaching others is a plus.
+- Prior experience with distributed systems or large-scale data pipelines is a plus but not required.
